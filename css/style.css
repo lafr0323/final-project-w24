@@ -39,7 +39,8 @@ header {
     color: #f8fafc;
     background-color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 1em 2em;
+    
 }
 
 header div {
@@ -71,6 +72,7 @@ nav ul li a:focus {
 .intro-pic {
     display: grid;
     gap: 8px;
+    padding: 2em;
     grid-template-columns: repeat(3fr, 1fr);
     grid-template-rows: 3fr, 1fr;
     grid-template-areas: 
@@ -106,17 +108,67 @@ nav ul li a:focus {
     font-weight: 700;
 }
 
+.button {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin-bottom: auto;
+}
+
+.sweetheart {
+    padding: 2em;
+}
+
 .behind-the-dough {
-    background-color: #f8fafc;
+    background-color: #ebebec;
+    padding: 2em;
 }
 
 .what-people-are-saying {
     color: #fff;
     background-color: #000;
+    padding: 2em;
 }
 
+.names {
+    font-weight: 400;
+    font-style: italic;
+}
 
+.titles {
+    text-align: center;
+}
 
+.twpics {
+    display: grid;
+    text-align: center;
+    gap: 1em;
+    padding: 1em;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "pic1 pic2"
+    "pic3 pic4"
+    ;
+}
+
+.twpics div {
+    background-color: #ebebec;
+}
+
+.photos {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
 
 
 
