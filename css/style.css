@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 4em;
+    margin: 3em;
     font-family: "Poppins", sans-serif;
 }
 
@@ -64,9 +64,52 @@ nav ul li a:focus {
     color: #222;
 }
 
+.intro-pic {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3fr, 1fr);
+    grid-template-rows: 3fr, 1fr;
+    grid-template-areas: 
+    "pic1 pic1 pic1"
+    "pic2 pic3 pic4"
+    ;
+}
 
+.intro-pic .ip1:nth-child(1) {
+    grid-area: pic1;
+    border-radius: 8px;
+}
 
+.intro-pic .ip2:nth-child(2) {
+    grid-area: pic2;
+    border-radius: 8px;
+}
 
+.intro-pic .ip3:nth-child(3) {
+    grid-area: pic3;
+    border-radius: 8px;
+
+}
+
+.intro-pic .ip4:nth-child(4) {
+    grid-area: pic4;
+    border-radius: 8px;
+
+}
+
+.le {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.behind-the-dough {
+    background-color: #f8fafc;
+}
+
+.what-people-are-saying {
+    color: #fff;
+    background-color: #000;
+}
 
 
 
