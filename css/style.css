@@ -118,6 +118,7 @@ nav ul li a:focus {
 
 .sweetheart {
     padding-left: 2em;
+    padding-bottom: 2em;
 }
 
 .behind-the-dough {
@@ -128,7 +129,7 @@ nav ul li a:focus {
 .what-people-are-saying {
     color: #fff;
     background-color: #000;
-    padding: 2em;
+    padding: 2rem;
     
 }
 
@@ -178,7 +179,6 @@ blockquote {
 }
 
 @media (min-width: 768px) {
-
     .intro-pic {
         display: grid;
         gap: 8px;
@@ -213,7 +213,7 @@ blockquote {
     .split2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
+    
     }
 
 
@@ -231,6 +231,10 @@ blockquote {
         margin: 0;
     }
 
+    blockquote {
+        margin: 0;
+        padding: 1rem;
+    }
 
 } 
 
