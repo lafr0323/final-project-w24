@@ -72,7 +72,6 @@ nav ul li a:focus {
 .intro-pic {
     display: grid;
     gap: 8px;
-    padding: 2em;
     grid-template-columns: repeat(3fr, 1fr);
     grid-template-rows: 3fr, 1fr;
     grid-template-areas: 
@@ -118,7 +117,7 @@ nav ul li a:focus {
 }
 
 .sweetheart {
-    padding: 2em;
+    padding-left: 2em;
 }
 
 .behind-the-dough {
@@ -173,13 +172,67 @@ footer {
     text-align: center;
 }
 
-/* @media (min-width: 768px) {
- grid-template-columns: 1fr 1fr;
+blockquote {
+    margin: 0;
+    gap: 2em;
 }
 
-@media (max-width: 960px) {
- grid-template-columns: 1fr 1fr 1fr 1fr;
-} */
+@media (min-width: 768px) {
+
+    .intro-pic {
+        display: grid;
+        gap: 8px;
+        padding-bottom: 4em;
+        grid-template-columns: repeat(3fr, 1fr);
+        grid-template-rows: 3fr, 1fr;
+        grid-template-areas: 
+        "pic1 pic2"
+        "pic3 pic4"
+        ;
+    } 
+
+
+    .twpics {
+        display: grid;
+        text-align: center;
+        gap: 1em;
+        padding: 1em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        grid-template-areas: 
+        "pic1 pic2 pic3 pic4"
+        ;
+    }
+
+    .split1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+    
+    .split2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+
+}
+
+
+@media (min-width: 960px) {
+ 
+    .intro2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+
+} 
 
 
 
