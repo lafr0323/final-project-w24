@@ -45,7 +45,6 @@ header {
 
 header div {
     display: flex;
-    padding-top: 2em 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -72,7 +71,7 @@ nav ul li a:focus {
 .intro-pic {
     display: grid;
     gap: 8px;
-    grid-template-columns: repeat(3fr, 1fr);
+    grid-template-columns: 3fr, 1fr;
     grid-template-rows: 3fr, 1fr;
     grid-template-areas: 
     "pic1 pic1 pic1"
@@ -148,8 +147,8 @@ nav ul li a:focus {
     text-align: center;
     gap: 1em;
     padding: 1em;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "pic1 pic2"
     "pic3 pic4"
@@ -182,13 +181,11 @@ blockquote {
     .intro-pic {
         display: grid;
         gap: 8px;
-        padding-bottom: 4em;
-        grid-template-columns: repeat(3fr, 1fr);
+        grid-template-columns: 3fr, 1fr;
         grid-template-rows: 3fr, 1fr;
         grid-template-areas: 
         "pic1 pic2"
-        "pic3 pic4"
-        ;
+        "pic3 pic4";
     } 
 
 
@@ -198,7 +195,7 @@ blockquote {
         gap: 1em;
         padding: 1em;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr ;
+        grid-template-rows: 1fr;
         grid-template-areas: 
         "pic1 pic2 pic3 pic4"
         ;
